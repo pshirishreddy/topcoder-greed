@@ -111,7 +111,7 @@ ${<if ReturnsArray}
 ${<end}
 
 	static class Reader {
-        private static final String dataFileName = "${Dependencies.testcase.GeneratedFileName}";
+        private static final String dataFileName = "res/${Contest.Name}/${Dependencies.testcase.GeneratedFileName}";
 	    private static BufferedReader reader;
 
 	    public static String nextLine() {
