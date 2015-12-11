@@ -1,3 +1,8 @@
+Minor tweak for greed to make it work with intellij
+===================================================
+Every thing is identical to parent repo at https://github.com/shivawu/topcoder-greed
+Only the read/write path for .sample file has changed
+
 Greed
 =====
 
