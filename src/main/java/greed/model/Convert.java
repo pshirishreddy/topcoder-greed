@@ -28,7 +28,8 @@ public class Convert {
         if (contestName.contains("/") ) {
             contestName = contestName.replace("/", "-");
         }
-        
+        contestName = contestName.replaceAll("\\s", "");
+
         return new Contest(contestName, div);
     }
 
